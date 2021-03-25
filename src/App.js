@@ -10,7 +10,7 @@ import './App.css';
 function App() {
   return (
     <Box px={10} width={1/2}>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <div className="App">
 
         <Card className="navigation-bar"
