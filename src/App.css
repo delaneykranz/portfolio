@@ -19,6 +19,16 @@
   
 }
 
+.wrapper {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.flexbox {
+  margin-left:auto;
+  margin-right:auto;
+}
+
 .navigation-sub {
   vertical-align: middle;
   display:flex;

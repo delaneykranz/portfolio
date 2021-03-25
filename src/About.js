@@ -14,7 +14,7 @@ function About(props) {
         <Box px={4}>
           <div>
             <h1>About Me</h1>
-            <p>My name is Delaney Kranz. I'm a tachycardic computer scientist.</p>
+            <p>My name is Delaney Kranz. I'm a computer scientist and creative writer.</p>
             <p>I previously worked at Paypal and GoDaddy as a software engineering intern.</p>
             <p>Currently, I'm working on a master's in computer science at Arizona State University. My area of study is Big Data Systems. I especially like cloud computing and feature extraction in multimedia.</p>
             <p>In my spare time, I like to write short stories in LaTeX and make silly videos.</p>
