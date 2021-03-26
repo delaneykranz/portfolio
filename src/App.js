@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <Flex className="flexbox" alignContent='center'>
-      <Box className="wrapper" px={10} width={1/2} Reflex>
+      <Box className="wrapper" px={10} width={3/4} Reflex>
         <BrowserRouter basename={process.env.PUBLIC_URL}>
           
 
@@ -23,12 +23,14 @@ function App() {
               boxShadow: '0 0 16px rgba(0, 0, 0, .55)',
             }}
           >
+            <Box>
               <div className="navigation-sub">
                 <img src={logo} className="logo" alt="Logo Image" />
                 <Link to="/" className="item">Delaney Kranz</Link>                             
                   {/*<Link to="/articles" className="item">Articles</Link>
                   <Link to="/projects" className="item">Projects</Link>*/}
               </div>
+              </Box>
             </Card>
       
             <Box className="content">
