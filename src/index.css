@@ -24,7 +24,8 @@ h1 {
 }
 
 body {
-  font-family: Roboto-Medium
+  font-family: Roboto-Medium;
+  background-color: #676770;
 }
 
 code {

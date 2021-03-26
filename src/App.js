@@ -20,7 +20,7 @@ function App() {
               p: 1,
               px: 2,
               borderRadius: 20,
-              boxShadow: '0 0 16px rgba(0, 0, 0, .55)',
+              boxShadow: '0 0 80px rgba(0, 0, 0, .55)',
             }}
           >
             <Box>
