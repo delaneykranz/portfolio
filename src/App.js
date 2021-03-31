@@ -27,16 +27,16 @@ function App() {
               <div className="navigation-sub">
                 <img src={logo} className="logo" alt="Logo Image" />
                 <Link to="/" className="item">Delaney Kranz</Link>                             
-                  {/*<Link to="/articles" className="item">Articles</Link>
-                  <Link to="/projects" className="item">Projects</Link>*/}
+                  <Link to="/articles" className="item">Writing</Link>
+                  {/*<Link to="/projects" className="item">Projects</Link>*/}
               </div>
               </Box>
             </Card>
       
             <Box className="content">
               <Route exact path="/" component={About} />
-              {/*<Route path="/articles" component={Articles} />
-              <Route path="/about" component={Projects} />*/}
+              <Route path="/articles" component={Articles} />
+              {/*<Route path="/about" component={Projects} />*/}
             </Box>
         </BrowserRouter>
       </Box>
