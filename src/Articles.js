@@ -2,7 +2,15 @@ import React from "react"
 import { Box, Card } from 'rebass'
 import Article from './Article.js'; 
 import './Articles.css';
- 
+import articles from './content/articles_consts';
+
+let articlesList = [];
+
+articles.forEach((item) => {
+  articlesList.push( <Article title={item.title} subheading={item.subheading} content={item.content}></Article>)
+})
+
+
 function Articles(props) {
   return (
     <Box>
@@ -21,11 +29,7 @@ function Articles(props) {
           </div>
         </Box>
       </Card>
-      <Article 
-        title="YOUR STICKY PLASTIC SEAT" 
-        subheading="Recipient of the 2016 ASU Homecoming Writing Award: Creative Writing" 
-        article=""
-        ></Article>
+      {articlesList}
     </Box>    
   )
 }

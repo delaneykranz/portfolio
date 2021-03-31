@@ -17,7 +17,7 @@ function Article(props) {
           <div>
             <h1 className="Article-h1">{props.title}</h1>
             <h3 className="Article-h3"><i>{props.subheading}</i></h3>
-            <p>{props.article}</p>
+            <p>{props.content}</p>
           </div>
         </Box>
       </Card>
