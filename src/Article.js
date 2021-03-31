@@ -1,4 +1,5 @@
 import React from "react"
+import { traverseTwoPhase } from "react-dom/test-utils";
 import { Box, Card } from 'rebass'
 import './Article.css';
  
@@ -18,6 +19,7 @@ function Article(props) {
             <h1 className="Article-h1">{props.title}</h1>
             <h3 className="Article-h3"><i>{props.subheading}</i></h3>
             <p>{props.content}</p>
+            <p className="Link-title">{props.linktitle}</p>
           </div>
         </Box>
       </Card>

@@ -7,7 +7,7 @@ import articles from './content/articles_consts';
 let articlesList = [];
 
 articles.forEach((item) => {
-  articlesList.push( <Article title={item.title} subheading={item.subheading} content={item.content}></Article>)
+  articlesList.push( <Article title={item.title} subheading={item.subheading} content={item.content} linktitle={item.linktitle}></Article>)
 })
 
 
